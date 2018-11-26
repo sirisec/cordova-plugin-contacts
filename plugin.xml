@@ -134,13 +134,13 @@
             </feature>
         </config-file>
 
-        <js-module src="www/ios/contacts.js" name="contacts-ios">
+        <!--<js-module src="www/ios/contacts.js" name="contacts-ios">
             <merges target="navigator.contacts" />
         </js-module>
 
         <js-module src="www/ios/Contact.js" name="Contact-iOS">
             <merges target="Contact" />
-        </js-module>
+        </js-module> -->
 
         <header-file src="src/ios/CDVContacts.h" />
         <source-file src="src/ios/CDVContacts.m" />
